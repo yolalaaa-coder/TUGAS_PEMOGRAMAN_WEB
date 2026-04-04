@@ -1,0 +1,69 @@
+body {
+    background-color: #853333 ;
+}
+
+.post-container {
+    display: flex;
+}
+
+.bg-pink {
+    background-color: #FBF6F6 ;
+}
+
+.bg-green {
+    background-color: aquamarine;
+}
+
+.text-gray {
+    color:darkslategray
+}
+.card {
+    flex: 1;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 8px;
+}
+
+.btn {
+    color:rgb(255, 255, 255);
+    font-size: medium;
+    text-decoration: none;
+    margin: 6px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #700303;
+    border-style: none;
+}
+
+.frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.frame video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn:hover {
+    background-color:rgb(255, 0, 217);
+    transition: ease 0.5s all;
+}
+
+@media (max-width: 600px){
+    body {
+        background-color: #380e0e;
+    }
+
+
+.post-container{
+    flex-direction: column;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+}
+}
