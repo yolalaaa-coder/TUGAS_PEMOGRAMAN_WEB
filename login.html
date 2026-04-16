@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>login</h2>
+    <div bg class="card bg-pink">
+    <div class="card login-box">
+    <h1 class="backprofil">LOGIN</h1>
     <form action="" method="post">
     <div>
         <label for="nama">Nama</label>
@@ -15,7 +18,7 @@
 
     <div>
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Masukan Email">
+        <input type="email" id="email" name="email" placeholder="Masukan Email" required>
     </div>
 
     <div>
@@ -23,17 +26,23 @@
         <input type="Password" id="password" name="password" placeholder="Masukan Password">
     </div>
 
-    <div>
+    <div bg class="backprofil jk-group">
         <label for="jk">Jenis Kelamin</label>
+        <div class="radio-group">
         <input type="radio" name="jk" id="laki" value="laki">
         <label for="laki">Laki-laki</label>
         <input type="radio" name="jk" id="perempuan" value="perempuan">
         <label for="perempuan">Perempuan</label>
+        </div>
     </div>
 
     <button type="submit">Submit</button>
     <button disabled="disabled">Disabled</button>
     <button type="reset">Reset</button>
     </form>
+    </div>
+    <div bg class="card bg-pink">
+        <a href="index.html" class="btn">Kembali ke Halaman Utama</a> 
+    </div>
 </body>
 </html>
